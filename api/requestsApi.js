@@ -9,8 +9,7 @@ export async function fetchRequestsApi() {
 
 export async function createRequestApi({ userId, type, comment }) {
     const payload = {
-        userId,
-        type,
+        userId,        type,
         comment,
         status: 'Submitted',
         createdAt: new Date().toISOString(),

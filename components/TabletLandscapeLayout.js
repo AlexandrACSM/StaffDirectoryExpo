@@ -15,13 +15,13 @@ export default function TabletLayout({ children }) {
 const styles = StyleSheet.create({
     root: {
         flex: 1,
-        backgroundColor: '#111',     // тёмный фон вокруг планшета
+        backgroundColor: '#111',
         justifyContent: 'center',
         alignItems: 'center',
     },
     tabletFrame: {
-        width: 1024,                  // landscape ширина
-        height: 768,                  // landscape высота
+        width: 1024,
+        height: 768,
         backgroundColor: '#fff',
         borderRadius: 24,
         borderWidth: 6,
